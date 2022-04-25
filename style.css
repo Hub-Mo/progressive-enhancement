@@ -8,6 +8,15 @@ background-size: cover;
     background: green;
     color: black;
 }
+.good, .bad {
+    text-transform: uppercase;
+}
+.bad {
+    color:red;
+}
+.good {
+    color: green;
+}
 h1 {
     font-size: 5rem;
 }
@@ -19,16 +28,50 @@ a:hover {
     color: green;
 }
 a:visited {
-    color: darkgreen;
+    color:aqua;
+}
+em {
+    font-style: italic;
+}
+.farmer{
+    color:coral;
+} 
+.neighbors {
+    color:darkorchid;
+}
+figcaption > em {
+    background: yellow;
 }
 p {
     font-family:sans-serif;
+    line-height: 2em;
     word-spacing: 4px;
     letter-spacing: 1px;
     color:#333333;
 }
+.Alex {
+    float:left;
+    width:33em;
+    margin-left: 8em;
+}
+.figure {
+    margin-top:5em;
+}
+ul {
+    list-style: none;
+}
+.Heading>article {
+float:left;
+margin: 3em;
+}
+.preamble {
+    margin: 10em 0em 5em 0em;
+}
+
+
 
 body{
     max-width: 90%;
     margin:0 auto;
+    font-family: open sans, sans-serif
 }
