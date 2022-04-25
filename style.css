@@ -1,0 +1,34 @@
+body {
+background-image: url(pexels-henry-&-co-1939485.jpg);
+background-repeat: no-repeat;
+background-position: right bottom;
+background-size: cover;
+}
+::selection{
+    background: green;
+    color: black;
+}
+h1 {
+    font-size: 5rem;
+}
+a {
+    color: grey;
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+}
+a:visited {
+    color: darkgreen;
+}
+p {
+    font-family:sans-serif;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    color:#333333;
+}
+
+body{
+    max-width: 90%;
+    margin:0 auto;
+}
