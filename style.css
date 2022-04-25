@@ -40,7 +40,7 @@ em {
     color:darkorchid;
 }
 figcaption > em {
-    background: yellow;
+    background-color:steelblue;
 }
 p {
     font-family:sans-serif;
